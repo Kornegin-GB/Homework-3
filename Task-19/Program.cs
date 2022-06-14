@@ -10,13 +10,13 @@ using static System.Console;
 
 Clear();
 
-bool DefPolendrome(string number, int first, int Last)
+bool DefPolendrome(string palindrome, int first, int Last)
 {
    bool isPolendrome = true;
 
    while (first < Last)
    {
-      if (number[first] == number[Last])
+      if (palindrome[first] == palindrome[Last])
       {
          first++;
          Last--;
